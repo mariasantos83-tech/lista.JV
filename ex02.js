@@ -9,6 +9,5 @@ function contagemRegressiva() {
     } else {
         console.log("Lançamento realizado!");
     }
+    contagemRegressiva();
 }
-
-contagemRegressiva();
