@@ -10,7 +10,7 @@ for (let mes = 1; mes <= 12; mes++) {
     gastoAnual += gastoMes;
 }
 let saldoAnual = ganhoAnual - gastoAnual;
-console.log("\n==============================");
+console.log("\n===");
 console.log(`Ganho Bruto Anual: R$ ${ganhoAnual.toFixed(2)}`);
 console.log(`Gasto Anual: R$ ${gastoAnual.toFixed(2)}`);
 console.log(`Saldo Financeiro Anual: R$ ${saldoAnual.toFixed(2)}`);
